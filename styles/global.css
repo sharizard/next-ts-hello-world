@@ -1,0 +1,23 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+    @apply bg-gray-100;
+}
+
+.btn {
+    @apply rounded text-white bg-blue-500 border border-blue-500 px-6 py-3 transition duration-100 ease-in-out;
+}
+
+.btn:hover {
+    @apply bg-blue-700 border-blue-700;
+}
+
+.btn-hollow {
+    @apply rounded text-blue-500 bg-transparent border border-blue-500 px-6 py-3 transition duration-100 ease-in-out;
+}
+
+.btn-hollow:hover {
+    @apply bg-blue-500 text-white;
+}
